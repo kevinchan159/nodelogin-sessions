@@ -1,0 +1,22 @@
+{
+  "name": "loginsessionapp",
+  "version": "1.0.0",
+  "description": "simple login app using session and cookies",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "express-handlebars": "*",
+    "express-validator": "*",
+    "client-sessions": "*",
+    "connect-flash": "*"
+  },
+  "author": "Kevin Chan",
+  "license": "ISC"
+}
